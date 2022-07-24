@@ -1,0 +1,17 @@
+{
+    "name": "arifh/design-pattern",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ariful-Hasan",
+            "email": "arifhasan.mbstu@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.1"
+    }
+}
