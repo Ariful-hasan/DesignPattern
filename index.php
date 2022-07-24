@@ -7,6 +7,7 @@ use App\Strategy\Strategy;
 use App\Strategy\NewyearStrategy;
 use App\Strategy\BlackFridayStrategy;
 use App\Strategy\SummerStrategy;
+use App\Facade\LaptopFacade;
 
 
 
@@ -44,3 +45,11 @@ use App\Strategy\SummerStrategy;
 // dump($strategy->showDiscountPercentage());
 // $strategy = new Strategy(new SummerStrategy);
 // dump($strategy->showDiscountPercentage());
+
+
+
+/**
+ * Facade design patter calling
+ */
+$laptopFacade = new LaptopFacade();
+$laptopFacade->switchOnLaptop();
